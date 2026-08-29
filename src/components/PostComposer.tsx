@@ -82,7 +82,7 @@ export function PostComposer({
     "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
   );
   const [caption, setCaption] = useState<string>(
-    "🚀 Publicación automatizada enviada a través de la pasarela OB-AutoPost desde nuestra app cliente en Next.js! #automation #saas"
+    "🚀 Publicación automatizada enviada desde MarketHub a través de la pasarela de posting! #markethub #automation #saas"
   );
   const [isScheduled, setIsScheduled] = useState(false);
   const [scheduledAt, setScheduledAt] = useState<string>("");

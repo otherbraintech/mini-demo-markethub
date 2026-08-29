@@ -1,6 +1,6 @@
-# OB-AutoPost Client Demo (Next.js + Vercel)
+# Mini Demo MarketHub (Next.js + Vercel)
 
-Aplicación cliente de demostración desarrollada en **Next.js (App Router)**, **TypeScript**, **Tailwind CSS** y componentes **shadcn/ui**, diseñada para demostrar cómo cualquier plataforma SaaS puede utilizar **OB-AutoPost** como **pasarela (gateway) de autenticación OAuth multired y publicación automatizada**.
+Aplicación cliente de demostración desarrollada en **Next.js (App Router)**, **TypeScript**, **Tailwind CSS** y componentes **shadcn/ui**, diseñada para demostrar cómo la plataforma **MarketHub** utiliza la pasarela **OB-AutoPost** como **gateway de autenticación OAuth multired y publicación automatizada**.
 
 ---
 

@@ -68,14 +68,14 @@ export function Header({ config, onUpdateConfig, onRefresh }: HeaderProps) {
             <div>
               <div className="flex items-center gap-2">
                 <h1 className="font-extrabold text-base sm:text-lg tracking-tight bg-gradient-to-r from-white via-slate-200 to-slate-400 bg-clip-text text-transparent">
-                  OB-AutoPost
+                  MarketHub
                 </h1>
-                <Badge variant="default" className="text-[10px] py-0 px-2 uppercase tracking-wider">
-                  Pasarela SaaS
+                <Badge variant="default" className="text-[10px] py-0 px-2 uppercase tracking-wider bg-indigo-500/20 text-indigo-300 border-indigo-500/30">
+                  Mini Demo
                 </Badge>
               </div>
               <p className="text-xs text-slate-400 hidden sm:block">
-                Demostración de Integración Desacoplada (Vercel &rarr; OB-AutoPost Gateway)
+                SaaS conectado a la Pasarela OB-AutoPost
               </p>
             </div>
           </div>

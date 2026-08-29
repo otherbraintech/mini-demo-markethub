@@ -205,7 +205,7 @@ export function AuthGatewayHub({
               Autenticación Multired sin Registrar Apps en Meta/TikTok
             </h2>
             <p className="text-sm text-slate-300 leading-relaxed">
-              Tu aplicación SaaS (desplegada en Vercel) delega el flujo de autenticación, refresco de tokens permanentes y encriptación AES-256 a la pasarela <b>OB-AutoPost</b>. Al autorizar, la cuenta queda mapeada a tu <code className="text-cyan-300 font-mono text-xs">client_user_id: {config.clientUserId}</code>.
+              Tu aplicación <b>MarketHub</b> (desplegada en Vercel) delega el flujo de autenticación, refresco de tokens permanentes y encriptación AES-256 a la pasarela <b>OB-AutoPost</b>. Al autorizar, la cuenta queda mapeada a tu <code className="text-cyan-300 font-mono text-xs">client_user_id: {config.clientUserId}</code>.
             </p>
           </div>
 

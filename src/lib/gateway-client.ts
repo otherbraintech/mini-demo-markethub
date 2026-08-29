@@ -9,11 +9,16 @@ export class OBGatewayClient {
     this.gatewayUrl = (
       options?.gatewayUrl ||
       process.env.NEXT_PUBLIC_OB_GATEWAY_URL ||
-      "http://localhost:8087"
+      "https://autopost.otherbrain.tech"
     ).replace(/\/$/, "");
-    this.apiKey = options?.apiKey || process.env.OB_API_KEY || "dev_api_key_123";
+    this.apiKey =
+      options?.apiKey ||
+      process.env.NEXT_PUBLIC_OB_API_KEY ||
+      process.env.OB_API_KEY ||
+      "dev_api_key_123";
     this.tenantId =
       options?.tenantId ||
+      process.env.NEXT_PUBLIC_OB_TENANT_ID ||
       process.env.OB_TENANT_ID ||
       "11111111-2222-3333-4444-555555555555";
   }

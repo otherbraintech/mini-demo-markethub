@@ -31,10 +31,13 @@ import {
 export default function HomePage() {
   const [config, setConfig] = useState<GatewayConfig>({
     gatewayUrl:
-      process.env.NEXT_PUBLIC_OB_GATEWAY_URL || "http://localhost:8087",
-    apiKey: "dev_api_key_123",
-    tenantId: "11111111-2222-3333-4444-555555555555",
-    clientUserId: "demo_client_user",
+      process.env.NEXT_PUBLIC_OB_GATEWAY_URL || "https://autopost.otherbrain.tech",
+    apiKey:
+      process.env.NEXT_PUBLIC_OB_API_KEY || "dev_api_key_123",
+    tenantId:
+      process.env.NEXT_PUBLIC_OB_TENANT_ID || "11111111-2222-3333-4444-555555555555",
+    clientUserId:
+      process.env.NEXT_PUBLIC_DEFAULT_CLIENT_USER_ID || "demo_client_user",
   });
 
   const [activeTab, setActiveTab] = useState<string>("auth");
@@ -302,7 +305,7 @@ export default function HomePage() {
       <footer className="border-t border-slate-800/80 bg-slate-950 py-6 text-center text-xs text-slate-500">
         <div className="max-w-7xl mx-auto px-4">
           <p>
-            OB-AutoPost Gateway Integration Demo &bull; Desarrollado para OtherBrain Tech &bull; Compatible con Vercel y Next.js App Router
+            Mini Demo MarketHub &bull; Desarrollado para OtherBrain Tech &bull; Conectado a Pasarela OB-AutoPost
           </p>
         </div>
       </footer>

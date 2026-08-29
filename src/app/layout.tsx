@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "OB-AutoPost Client Demo | Pasarela OAuth & Autoposting",
+  title: "Mini Demo MarketHub | Pasarela OAuth & Autoposting",
   description:
-    "Demostración de aplicación SaaS en Next.js utilizando OB-AutoPost como pasarela de autenticación OAuth multired y publicación automática de contenido.",
+    "MarketHub - Demostración de aplicación SaaS en Next.js utilizando la pasarela de autenticación OAuth multired y publicación automática.",
 };
 
 export default function RootLayout({
